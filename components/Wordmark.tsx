@@ -16,9 +16,9 @@ export function Wordmark({ href = "/", className = "" }: WordmarkProps) {
       <img
         src="/logo/logo.svg"
         alt="Gazi & Associates"
-        width={200}
-        height={70}
-        className="h-auto w-[200px]"
+        width={140}
+        height={49}
+        className="h-auto w-[140px]"
       />
       <span className="mt-2 font-sans text-xs uppercase tracking-caps text-muted">
         Advocates · Tax Counsel · Corporate Advisers
