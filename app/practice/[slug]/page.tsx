@@ -35,19 +35,12 @@ export default function PracticeAreaPage({ params }: PageProps) {
 
   return (
     <>
-      <PageHero eyebrow="Practice" heading={area.title} subtitle={area.summary} />
-
-      {area.intro ? (
-        <Section tone="paper" density="compact">
-          <Container>
-            <Prose>
-              {area.intro.map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
-              ))}
-            </Prose>
-          </Container>
-        </Section>
-      ) : null}
+      <PageHero
+        eyebrow="Practice"
+        heading={area.title}
+        subtitle={area.summary}
+        intro={area.intro}
+      />
 
       {area.sections?.map((section, i) => (
         <Section key={i} tone="paper" divider="top">

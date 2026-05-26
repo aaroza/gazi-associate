@@ -20,18 +20,8 @@ export default function FirmPage() {
         eyebrow={firmCopy.hero.eyebrow}
         heading={firmCopy.hero.heading}
         subtitle={firmCopy.hero.subtitle}
+        intro={firmCopy.intro}
       />
-
-      {/* Continuation paragraphs — attach to the hero, no top divider, compact density. */}
-      <Section tone="paper" density="compact">
-        <Container>
-          <Prose>
-            {firmCopy.intro.map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
-            ))}
-          </Prose>
-        </Container>
-      </Section>
 
       <Section tone="paper" divider="top">
         <Container>
