@@ -10,10 +10,17 @@ export function Wordmark({ href = "/", className = "" }: WordmarkProps) {
     <Link
       href={href}
       aria-label="Gazi & Associates — home"
-      className={`leading-none inline-flex flex-col text-ink no-underline ${className}`}
+      className={`inline-flex flex-col leading-none text-ink no-underline ${className}`}
     >
-      <span className="font-serif text-2xl font-medium leading-tight">Gazi &amp; Associates</span>
-      <span className="mt-1.5 font-sans text-xs uppercase tracking-caps text-muted">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/logo/logo.svg"
+        alt="Gazi & Associates"
+        width={200}
+        height={70}
+        className="h-auto w-[200px]"
+      />
+      <span className="mt-2 font-sans text-xs uppercase tracking-caps text-muted">
         Advocates · Tax Counsel · Corporate Advisers
       </span>
     </Link>
