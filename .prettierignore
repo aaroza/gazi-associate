@@ -1,0 +1,9 @@
+node_modules
+.next
+.vercel
+out
+build
+coverage
+package-lock.json
+claude.md
+copy.md

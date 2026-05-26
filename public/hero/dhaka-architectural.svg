@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Architectural composition — pediment, columns and stylobate">
+  <defs>
+    <linearGradient id="lightSweep" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0%" stop-color="#B08D57" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#B08D57" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="floorShadow" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.28"/>
+      <stop offset="40%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="#0B1E3F"/>
+  <rect width="900" height="600" fill="url(#lightSweep)"/>
+
+  <g stroke="#F5F1EA" stroke-width="1.5" fill="none" stroke-opacity="0.78" stroke-linecap="square" stroke-linejoin="miter">
+    <polyline points="170,168 450,72 730,168"/>
+    <line x1="160" y1="168" x2="740" y2="168"/>
+    <line x1="160" y1="180" x2="740" y2="180"/>
+    <line x1="160" y1="218" x2="740" y2="218"/>
+
+    <g>
+      <line x1="200" y1="218" x2="200" y2="498"/>
+      <line x1="222" y1="218" x2="222" y2="498"/>
+      <line x1="296" y1="218" x2="296" y2="498"/>
+      <line x1="318" y1="218" x2="318" y2="498"/>
+      <line x1="392" y1="218" x2="392" y2="498"/>
+      <line x1="414" y1="218" x2="414" y2="498"/>
+      <line x1="488" y1="218" x2="488" y2="498"/>
+      <line x1="510" y1="218" x2="510" y2="498"/>
+      <line x1="584" y1="218" x2="584" y2="498"/>
+      <line x1="606" y1="218" x2="606" y2="498"/>
+      <line x1="680" y1="218" x2="680" y2="498"/>
+      <line x1="702" y1="218" x2="702" y2="498"/>
+    </g>
+
+    <line x1="160" y1="498" x2="740" y2="498"/>
+    <line x1="140" y1="518" x2="760" y2="518"/>
+    <line x1="120" y1="538" x2="780" y2="538"/>
+  </g>
+
+  <rect y="540" width="900" height="60" fill="url(#floorShadow)"/>
+</svg>

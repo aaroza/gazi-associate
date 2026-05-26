@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Jashore chamber — industrial warehouse silhouette with sawtooth roof">
+  <defs>
+    <linearGradient id="jashoreLight" x1="1" y1="0" x2="0" y2="0.3">
+      <stop offset="0%" stop-color="#B08D57" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#B08D57" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="#0B1E3F"/>
+  <rect width="900" height="600" fill="url(#jashoreLight)"/>
+
+  <g stroke="#F5F1EA" stroke-width="1.6" fill="none" stroke-opacity="0.78" stroke-linecap="round" stroke-linejoin="miter">
+    <line x1="100" y1="280" x2="100" y2="450"/>
+    <line x1="700" y1="280" x2="700" y2="450"/>
+    <path d="M 100 280 L 160 220 L 220 280 L 280 220 L 340 280 L 400 220 L 460 280 L 520 220 L 580 280 L 640 220 L 700 280"/>
+
+    <line x1="760" y1="170" x2="760" y2="450"/>
+    <line x1="804" y1="190" x2="804" y2="450"/>
+    <line x1="760" y1="170" x2="804" y2="170"/>
+    <line x1="760" y1="190" x2="804" y2="190"/>
+
+    <rect x="160" y="340" width="44" height="110"/>
+    <rect x="260" y="340" width="44" height="66"/>
+    <rect x="360" y="340" width="44" height="66"/>
+    <rect x="460" y="340" width="44" height="66"/>
+    <rect x="560" y="340" width="44" height="66"/>
+    <rect x="620" y="340" width="60" height="110"/>
+
+    <line x1="40" y1="450" x2="860" y2="450"/>
+    <line x1="20" y1="468" x2="880" y2="468"/>
+  </g>
+</svg>
